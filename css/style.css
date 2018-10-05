@@ -1,0 +1,126 @@
+* { margin:0; padding:0; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	background-color: #c6c9ce;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+ 
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+ 
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+ 
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* container */
+#container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 300px;
+	background-color: #b74747;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+/* container */
+
+/*inputbox*/
+ #inputbox{
+	 width: 250px;
+	 height: 30px;
+	border: none;
+	color: black;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 25px;
+	float: left;
+	border: 2px solid blanchedalmond;
+
+ }
+ /*inputbox*/
+ /*h5 baslik*/
+ h5{
+	color:white;
+	font-size:20px;
+	width:200px;
+	height: 30px;
+	margin: 10px auto;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ /*h5 baslik*/
+
+/*buton */
+#btn{
+	width:100px;
+	float: left;
+	height: 34px;
+	margin-left:10px;
+	border:none;
+	color:white;
+	font-size:18px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: coral;
+}
+/*buton */
+/*content*/
+#content{
+	width: 380px;
+	height: 70px;
+	
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+/*content*/
+/*warning*/
+#warning{
+	color:white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 20px;
+	float: left;
+	margin-top:5px;
+	text-decoration: underline;
+}
+/*warning*/
